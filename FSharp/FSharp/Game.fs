@@ -3,8 +3,8 @@ namespace FSharp
 module Game =
     type CellState = | ALIVE | DEAD
     
-    let mapWidth = 5
-    let mapHeight = 5
+    let mapWidth = 50
+    let mapHeight = 50
     let rulesBecomeAlive = [ 0; 3 ]
     let rulesStayAlive = [ 2; 3; 5 ]
 

@@ -5,8 +5,8 @@ namespace CSharp
 {
     public class Game
     {
-        public const int MapWidth = 5;
-        public const int MapHeight = 5;
+        public const int MapWidth = 50;
+        public const int MapHeight = 50;
         public static readonly HashSet<int> RulesStayAlive = new HashSet<int>(new[] { 2, 3, 5 });
         public static readonly HashSet<int> RulesBecomeAlive = new HashSet<int>(new[] { 0, 3 });
 
