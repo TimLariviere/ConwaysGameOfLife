@@ -5,7 +5,7 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <Compile Include="Game.fs"/>
+        <Compile Include="Game.fs" />
     </ItemGroup>
 
 </Project>

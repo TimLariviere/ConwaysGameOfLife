@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:FSharp" x:Class="FSharp.FSharpPage">
+   <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+            <Button x:Name="StartButton" Text="Start" />
+            <Button x:Name="RestartButton" Text="Restart" Margin="20,0,0,0" />
+        </StackLayout>
+
+        <ContentView Grid.Row="1" x:Name="CanvasRoot" />
+    </Grid>
+</ContentPage>
